@@ -26,6 +26,6 @@ def twoPassHash(nums, target):
 			return [i, dict[complement]]
 
 
-list = [3,3]
+list = [3,2,4]
 print(bruteForce(list,6))
 print(twoPassHash(list,6))
